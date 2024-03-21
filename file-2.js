@@ -1,8 +1,3 @@
+const data = require('./file-1')
 
-const a = 1000;
-const b = 2000;
-
-module.exports = {
-    a: a,
-    b: b
-}
+console.log(data.sub(200, 10))
