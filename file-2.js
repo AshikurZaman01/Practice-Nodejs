@@ -1,3 +1,5 @@
 const data = require('./file-1')
+const add = require('./add.js')
 
-console.log(data.sub(200, 10))
+
+console.log(add.add(100, 20))
