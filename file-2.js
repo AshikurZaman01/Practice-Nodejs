@@ -1,5 +1,3 @@
-const data = require('./file-1')
-const add = require('./add.js')
 
-
-console.log(add.add(100, 20))
+const var1 = require('./file-1');
+console.log(var1.a)
